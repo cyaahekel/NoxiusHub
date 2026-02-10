@@ -1,0 +1,13 @@
+local games = {
+    [121864768012064] = "https://raw.githubusercontent.com/cyaahekel/NoxiusHub/refs/heads/main/fishit",
+    [131623223084840] = "https://raw.githubusercontent.com/cyaahekel/NoxiusHub/refs/heads/main/etfb",
+}
+
+local currentID = game.PlaceId
+local scriptURL = games[currentID]
+
+if scriptURL then
+    loadstring(game:HttpGet(scriptURL))()
+else
+    game.Players.LocalPlayer:Kick("\n[Akses Ditolak]\nGame ini belum terdaftar dalam database kami.\nSilahkan hubungi admin di Discord untuk informasi lebih lanjut.")
+end
