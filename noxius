@@ -1,6 +1,6 @@
 local games = {
     [121864768012064] = "https://raw.githubusercontent.com/cyaahekel/NoxiusHub/refs/heads/main/fishit",
-    [131623223084840] = "https://raw.githubusercontent.com/cyaahekel/NoxiusHub/refs/heads/main/etfb",
+    -- [131623223084840] = "https://raw.githubusercontent.com/cyaahekel/NoxiusHub/refs/heads/main/etfb",
 }
 
 local currentID = game.PlaceId
